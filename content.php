@@ -1,4 +1,4 @@
-<?php include_once ("./headEFooter/head.php");?>
+<?php include_once ("./partials/head.php");?>
 <body>
     <div class="principal">
         <a class="waves-effect waves-light btn">Enviar</a>
