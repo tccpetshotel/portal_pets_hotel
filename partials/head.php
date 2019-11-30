@@ -24,19 +24,5 @@
         </div>
       </div>
     </nav>
-  </div>
-  <div id="green" class="block green lighten-1">
-    <nav class="pushpin-demo-nav pin-top" data-target="green" style="top: 0px;">
-      <div class="nav-wrapper green">
-        <div class="container">
-          <a href="#" class="brand-logo">Green</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#!">Green Link 1</a></li>
-            <li><a href="#!">Green Link 2</a></li>
-            <li><a href="#!">Green Link 3</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
+    <div class="divider"></div>
 </header>

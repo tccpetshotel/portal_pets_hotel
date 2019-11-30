@@ -10,97 +10,81 @@
             </p>
         </div>
     </div>
-    <div class="container input-field col s12">
-        <i class="material-icons prefix">search</i>
-        <input type="text" id="autocomplete-input" class="autocomplete">
-        <label for="autocomplete-input">search the best</label>
+    <div class="block green lighten-1">
+        <nav class="pushpin-demo-nav pin-top" data-target="green">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="#" class="brand-logo">Green</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#!">Green Link 1</a></li>
+                        <li><a href="#!">Green Link 2</a></li>
+                        <li><a href="#!">Green Link 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
-    <div id="cards" class="row">
+    <div id="cards">
         <div class="container">
-            <div class="col s12 m4">
-                <div id="card" class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="./assets/images/background-2.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div id="card" class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="./assets/images/background-2.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title gray-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p class="gray-text">Here is some more information about this product that is only revealed once clicked on.</p>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div id="card" class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/background-2.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col s12 m4">
-                <div id="card" class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="./assets/images/background-2.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
+                <div class="col s12 m8">
+                    <h1>HELLO</h1>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="col s12 m4">
-                <div id="card" class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="./assets/images/background-2.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div id="card" class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="./assets/images/background-2.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div id="card" class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/background-2.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
                     </div>
                 </div>
+                <div class="col s12 m8">
+                    <h1>HELLO</h1>
+                </div>
             </div>
-            <div class="col s12 m4">
-                <div id="card" class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="./assets/images/background-2.jpeg">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div id="card" class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/background-2.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Card Title</span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title</span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
+                </div>
+                <div class="col s12 m8">
+                    <h1>HELLO</h1>
                 </div>
             </div>
         </div>

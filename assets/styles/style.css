@@ -11,20 +11,30 @@
 }
 
 #cards {
-    margin-top: 1rem;
     background-image: url('../images/background-1.jpeg');
     -webkit-background-size: cover;
 }
 
-#card {
-    margin: 1rem;
-    -webkit-background-size: cover;
-    padding: 0rem;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    overflow: auto;
+.pin-top {
+    position: relative;
+}
+
+
+.pin-bottom {
+    position: relative;
+}
+
+
+.pinned {
+    position: fixed !important;
+}
+
+.block {
+    height: 100%;
+}
+
+.divider {
+    height: 50px;
 }
 
 @media(min-width: 900px) {
