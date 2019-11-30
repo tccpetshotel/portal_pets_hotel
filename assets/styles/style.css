@@ -1,8 +1,40 @@
-.principal 
-{
-    width: 50%;
-    height: 900px;
-    border: 3px solid black;
-    margin-left: 23%;
-    margin-top: 1%;
+.nav-wrapper {
+    background-color: rgba(255, 94, 0, 0.7) !important;
+    border-color: rgba(255, 94, 0, 0.7) !important;
+}
+
+#header {
+    margin-top: 1rem;
+    -webkit-background-size: cover;
+    overflow: auto;
+    position: absolute;
+}
+
+#cards {
+    margin-top: 1rem;
+    background-image: url('../images/background-1.jpeg');
+    -webkit-background-size: cover;
+}
+
+#card {
+    margin: 1rem;
+    -webkit-background-size: cover;
+    padding: 0rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: auto;
+}
+
+@media(min-width: 900px) {
+    #header {
+        margin-left: 55rem
+    }
+}
+
+@media(max-width: 900px) {
+    #header {
+        margin-left: 5.5rem
+    }
 }

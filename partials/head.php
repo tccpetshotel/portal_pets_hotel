@@ -1,25 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
-    <title>Blog</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <title>Portal PetsHotel</title>
 </head>
 <header>
-<nav>
-<nav class="amber darken-4" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Code in Python</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Team</a></li>
-      </ul>
-    </div>
-  </nav>
+  <div id="blue" class="block blue">
+    <nav class="pushpin-demo-nav pinned" data-target="blue" style="top: 0px;">
+      <div class="nav-wrapper light-blue">
+        <div class="container">
+          <a href="#" class="brand-logo">Blue</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#!">Blue Link 1</a></li>
+            <li><a href="#!">Blue Link 2</a></li>
+            <li><a href="#!">Blue Link 3</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div id="green" class="block green lighten-1">
+    <nav class="pushpin-demo-nav pin-top" data-target="green" style="top: 0px;">
+      <div class="nav-wrapper green">
+        <div class="container">
+          <a href="#" class="brand-logo">Green</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#!">Green Link 1</a></li>
+            <li><a href="#!">Green Link 2</a></li>
+            <li><a href="#!">Green Link 3</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
 </header>
