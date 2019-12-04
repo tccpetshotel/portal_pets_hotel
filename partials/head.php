@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -442,10 +443,35 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
             <li class="k"><a href="#all">Eventos</a></li>
             <li class="k"><a href="#all">Espécies</a></li>
             <li class="k"><a href="#all">Gatos</a></li>
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <title>Portal PetsHotel</title>
+</head>
+<header>
+  <div id="blue" class="block blue">
+    <nav class="pushpin-demo-nav pinned" data-target="blue" style="top: 0px;">
+      <div class="nav-wrapper light-blue">
+        <div class="container">
+          <a href="#" class="brand-logo">Blue</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#!">Blue Link 1</a></li>
+            <li><a href="#!">Blue Link 2</a></li>
+            <li><a href="#!">Blue Link 3</a></li>
+>>>>>>> ecf20db75e1fdc470b90e88435309a98b50a90fa
           </ul>
         </div>
       </div>
     </nav>
+<<<<<<< HEAD
 
     <ul class="side-nav" id="nav-mobile" style="transform: translateX(-100%);">
       <li><a href="#"><i class="material-icons">camera</i>Gallery</a></li>
@@ -453,3 +479,7 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
       <li><a href="#"><i class="material-icons">school</i>Docs</a></li>
     </ul>
 </html>
+=======
+    <div class="divider"></div>
+</header>
+>>>>>>> ecf20db75e1fdc470b90e88435309a98b50a90fa

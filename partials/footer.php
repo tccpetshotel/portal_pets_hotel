@@ -1,3 +1,4 @@
+
 <footer class="page-footer" style="background-color: green;">
   <div class="container">
     <div class="row">
@@ -40,5 +41,17 @@
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=590ca7fcef4e140012286a59&product=sticky-share-buttons' async='async'></script>
+=======
+<footer class="page-footer">
+  <div class="container">
+  </div>
+</footer>
+<!--  Scripts-->
+<script src="./assets/scripts/scripts.js"></script>
+<script src="https://static.addtoany.com/menu/page.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+>>>>>>> ecf20db75e1fdc470b90e88435309a98b50a90fa
 </body>
+
 </html>
