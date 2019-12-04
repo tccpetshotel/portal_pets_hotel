@@ -1,9 +1,11 @@
-<<<<<<< HEAD
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/dog.ico">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" media="screen" />
 
     <title>Blog</title>
 
@@ -392,7 +394,7 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
 }
 </style><script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
   <link rel="canonical" href="https://themes.materializecss.com/pages/blog">
-<link href="https://cdn.shopify.com/shopifycloud/boomerang/boomerang-latest.min.js" rel="preload" as="script"><script id="boomr-scr-as" src="https://cdn.shopify.com/shopifycloud/boomerang/boomerang-latest.min.js" async=""></script></head>
+  <link href="https://cdn.shopify.com/shopifycloud/boomerang/boomerang-latest.min.js" rel="preload" as="script"><script id="boomr-scr-as" src="https://cdn.shopify.com/shopifycloud/boomerang/boomerang-latest.min.js" async=""></script></head>
 
   <body class="blog">
 
@@ -402,7 +404,8 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
 
         <div 
         class="ea k" 
-        style="background-image: url('//cdn.shopify.com/s/files/1/1775/8583/t/1/assets/icon-seamless.png?0');">
+        style="background-image: url('//cdn.shopify.com/s/files/1/1775/8583/t/1/assets/icon-seamless.png?0'); background-color:white ;"
+        >
         </div>
 
       </div>
@@ -411,7 +414,6 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
         href="index.php" 
         class="brand-logo"
         >
-        <i class="material-icons">camera</i>Pets Hotel</a>
         
         <a 
         href="#" 
@@ -421,65 +423,27 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
         
         <i class="material-icons">menu</i></a>
         <ul class="bt hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
           <li class="k"><a href="index.php">Blog</a></li>
-          <li><a href="#">Galeria</a></li>
-          <li><a href="#">Docs</a></li>
+          <li><a href="#">Cadastro</a></li>
+          <li><a href="#">App</a></li>
         </ul></li>
         </ul>
 
         <div class="nav-header de">
-          <h1>BLOG HOTEL PETS</h1>
-        </div>
+          <img src="./assets/images/petsHotel.png" alt="" style="height: 200px;">
+      </div>
       </div>
 
       <!-- Abaixo do NAV -->
       <div class="categories-wrapper an darken-1">
-        <div class="categories-container pin-top" style="top: 0px;">
+        <div class="categories-container pin-top" style="top: 0px; background-color: #ff7b00;">
           <ul class="categories db">
             <li class="k"><a href="index.php">Pets</a></li>
-            <li class="k"><a href="#all">Adoção</a></li>
-            <li class="k"><a href="#all">Aquário</a></li>
-            <li class="k"><a href="#all">Cães</a></li>
-            <li class="k"><a href="#all">Eventos</a></li>
-            <li class="k"><a href="#all">Espécies</a></li>
+            <li class="k"><a href="#all">Cachorros</a></li>
             <li class="k"><a href="#all">Gatos</a></li>
-=======
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet" href="./assets/styles/style.css">
-  <title>Portal PetsHotel</title>
-</head>
-<header>
-  <div id="blue" class="block blue">
-    <nav class="pushpin-demo-nav pinned" data-target="blue" style="top: 0px;">
-      <div class="nav-wrapper light-blue">
-        <div class="container">
-          <a href="#" class="brand-logo">Blue</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#!">Blue Link 1</a></li>
-            <li><a href="#!">Blue Link 2</a></li>
-            <li><a href="#!">Blue Link 3</a></li>
->>>>>>> ecf20db75e1fdc470b90e88435309a98b50a90fa
           </ul>
         </div>
       </div>
     </nav>
-<<<<<<< HEAD
-
-    <ul class="side-nav" id="nav-mobile" style="transform: translateX(-100%);">
-      <li><a href="#"><i class="material-icons">camera</i>Gallery</a></li>
-      <li class="k"><a href="index.php"><i class="material-icons">edit</i>Blog</a></li>
-      <li><a href="#"><i class="material-icons">school</i>Docs</a></li>
-    </ul>
 </html>
-=======
-    <div class="divider"></div>
-</header>
->>>>>>> ecf20db75e1fdc470b90e88435309a98b50a90fa
