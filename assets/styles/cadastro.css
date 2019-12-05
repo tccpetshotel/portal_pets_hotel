@@ -1,4 +1,4 @@
-/* body {
+body {
     background-image: url('../images/background-2.jpeg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -13,8 +13,7 @@
     padding: 3rem;
     right: 0;
     top: 0;
-
-} */
+}
 
 #cadastro {
     margin-top: 3rem;
@@ -27,6 +26,22 @@
 }
 
 #logo {
+    margin-top: 3rem;
+    text-align: center !important;
+}
+
+#submit {
+    background-color: rgb(255, 94, 0) !important;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3)
+}
+
+#submit:hover {
+    transition: all 0.15s linear;
+    transform: scale(1.15);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3)
+}
+
+#submitDIV {
     text-align: center !important;
 }
 
