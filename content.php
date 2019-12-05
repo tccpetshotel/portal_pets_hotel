@@ -60,7 +60,8 @@
                 <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
               </div>
             </div>
-          </div></div>
+          </div>
+          </div>
           <div class="d hx hf gu gallery-item gallery-expand ce sintel" style="position: absolute; left: 0px; top: 1090px;" data-fillscreen="true"><div class="placeholder">
             <div class="gallery-curve-wrapper">
               <a class="gallery-cover gray" style="height: 200px;">

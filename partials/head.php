@@ -399,12 +399,11 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
   <body class="blog">
 
     <!-- Navbar e Header -->
-    <nav class="nav-extended" style="background-color:rgb(66, 173, 245);">
-      <div class="nav-background">
+    <nav class="nav-extended">
+      <div class="nav-background gusta">
 
         <div 
-        class="ea k" 
-        style="background-image: url(./assets/images/background-blog.jpg); background-color: ; margin-top: 1px;"
+        class="gusta" 
         >
         </div>
 
@@ -431,13 +430,14 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
       <div class="nav-header de">
         <div class="imagem">
           <img src="./assets/images/petsHotel.png" alt="" style="height: 200px;">
+          <div class="titulo"> BLOG HOTEL PETS </div>
         </div>
       </div>
       </div>
 
       <!-- Abaixo do NAV -->
       <div class="categories-wrapper an darken-1">
-        <div class="categories-container pin-top" style="top: 0px; background-color: #ff7b00;">
+        <div class="categories-container pin-top" style="top: 0px; background-color:rgb(255, 115, 0);">
           <ul class="categories db">
             <li class="k"><a href="blog.php">Pets</a></li>
             <li class="k"><a href="#all">Cachorros</a></li>
