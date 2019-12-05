@@ -67,8 +67,5 @@
             button.removeAttribute("disabled"); 
         }
     }
-    for(i=0; i<; i++){
-        att();
-    }
 </script>
 </html>
