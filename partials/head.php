@@ -404,7 +404,7 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
 
         <div 
         class="ea k" 
-        style="background-image: url('//cdn.shopify.com/s/files/1/1775/8583/t/1/assets/icon-seamless.png?0'); background-color: ;"
+        style="background-image: url(./assets/images/background-blog.jpg); background-color: ; margin-top: 1px;"
         >
         </div>
 
@@ -420,18 +420,18 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
         data-activates="nav-mobile" 
         class="button-collapse"
         >
-        
         <i class="material-icons">menu</i></a>
         <ul class="bt hide-on-med-and-down">
           <li><a href="#">Home</a></li>
           <li class="k"><a href="blog.php">Blog</a></li>
-          <li><a href="#">Cadastro</a></li>
+          <li><a href="cadastro.php">Cadastro</a></li>
           <li><a href="#">App</a></li>
         </ul></li>
         </ul>
-
-        <div class="nav-header de">
+      <div class="nav-header de">
+        <div class="imagem">
           <img src="./assets/images/petsHotel.png" alt="" style="height: 200px;">
+        </div>
       </div>
       </div>
 
