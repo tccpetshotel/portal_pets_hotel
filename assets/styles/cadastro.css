@@ -1,5 +1,5 @@
 body {
-    background-image: url('../images/background-2.jpeg');
+    background-image: url('../images/background.jpeg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: cover;
@@ -16,13 +16,20 @@ body {
 }
 
 #cadastro {
+    transition: all 0.15s linear;
     margin-top: 3rem;
     padding-top: 2rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
     border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 4px 5px 20px rgba(0, 0, 0, .3)
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 4px 5px 20px rgba(0, 0, 0, 0.3)
+}
+
+#cadastro:hover {
+    transition: all 0.15s linear;
+    transform: scale(1.15);
+    background-color: rgba(255, 255, 255, 0.95);
 }
 
 #logo {
