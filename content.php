@@ -1,6 +1,3 @@
-  <?php 
-  include_once('./partials/head.php');
-  ?>
   <!-- Cards -->
   <div id="portfolio" class="cx gray">
       <div class="db">

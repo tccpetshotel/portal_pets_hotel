@@ -399,19 +399,19 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
   <body class="blog">
 
     <!-- Navbar e Header -->
-    <nav class="nav-extended an">
+    <nav class="nav-extended" style="background-color:rgb(66, 173, 245);">
       <div class="nav-background">
 
         <div 
         class="ea k" 
-        style="background-image: url('//cdn.shopify.com/s/files/1/1775/8583/t/1/assets/icon-seamless.png?0'); background-color:white ;"
+        style="background-image: url('//cdn.shopify.com/s/files/1/1775/8583/t/1/assets/icon-seamless.png?0'); background-color: ;"
         >
         </div>
 
       </div>
       <div class="nav-wrapper db">
         <a 
-        href="index.php" 
+        href="blog.php" 
         class="brand-logo"
         >
         
@@ -424,7 +424,7 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
         <i class="material-icons">menu</i></a>
         <ul class="bt hide-on-med-and-down">
           <li><a href="#">Home</a></li>
-          <li class="k"><a href="index.php">Blog</a></li>
+          <li class="k"><a href="blog.php">Blog</a></li>
           <li><a href="#">Cadastro</a></li>
           <li><a href="#">App</a></li>
         </ul></li>
@@ -439,7 +439,7 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
       <div class="categories-wrapper an darken-1">
         <div class="categories-container pin-top" style="top: 0px; background-color: #ff7b00;">
           <ul class="categories db">
-            <li class="k"><a href="index.php">Pets</a></li>
+            <li class="k"><a href="blog.php">Pets</a></li>
             <li class="k"><a href="#all">Cachorros</a></li>
             <li class="k"><a href="#all">Gatos</a></li>
           </ul>
