@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/dog.ico">
     <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" media="screen" />
+    <link rel="sortcut icon" href="./assets/images/casco.ico" type="image/x-icon" />
 
     <title>Blog</title>
 
@@ -427,10 +427,16 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
           <li><a href="#">App</a></li>
         </ul></li>
         </ul>
-      <div class="nav-header de">
+      <div class="nav-header">
         <div class="imagem">
-          <img src="./assets/images/petsHotel.png" alt="" style="height: 200px;">
-          <div class="titulo"> BLOG HOTEL PETS </div>
+          <a href="blog.php" > <!--target="_blank" Abrir em outra página -->
+            <img 
+            src="./assets/images/doghotel2.png" 
+            alt="PetsHotel" 
+            style="width: 200px; height: 200px;"
+            >
+          </div>
+          </a>
         </div>
       </div>
       </div>
@@ -440,8 +446,8 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
         <div class="categories-container pin-top" style="top: 0px; background-color:rgb(255, 115, 0);">
           <ul class="categories db">
             <li class="k"><a href="blog.php">Pets</a></li>
-            <li class="k"><a href="#all">Cachorros</a></li>
-            <li class="k"><a href="#all">Gatos</a></li>
+            <li class="k"><a href="dogs.php">Cachorros</a></li>
+            <li class="k"><a href="cats.php">Gatos</a></li>
           </ul>
         </div>
       </div>
