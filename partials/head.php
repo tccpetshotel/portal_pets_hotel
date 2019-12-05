@@ -431,7 +431,7 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
         <div class="imagem">
           <a href="blog.php" > <!--target="_blank" Abrir em outra página -->
             <img 
-            src="./assets/images/doghotel2.png" 
+            src="./assets/images/petsHotelBlog.png" 
             alt="PetsHotel" 
             style="width: 200px; height: 200px;"
             >

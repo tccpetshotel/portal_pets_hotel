@@ -1,7 +1,7 @@
 <?php include_once("./partials/cadastroHead.php"); ?>
 <div id="sigin-page">
     <div id="logo">
-        <img src="./assets/images/petsHotel.png" width="180">
+        <img src="./assets/images/logo.png" width="180">
     </div>
     <div id="cadastro" class="container row">
         <form id="form-createClient" class="col s12 m12" action="https://petshotel.herokuapp.com/client/create" method="POST">
