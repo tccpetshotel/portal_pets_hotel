@@ -601,6 +601,12 @@
   <script>
     window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');
   </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, {});
+    });
+  </script>
   <link rel="canonical" href="https://themes.materializecss.com/pages/blog">
   <link href="https://cdn.shopify.com/shopifycloud/boomerang/boomerang-latest.min.js" rel="preload" as="script">
   <script id="boomr-scr-as" src="https://cdn.shopify.com/shopifycloud/boomerang/boomerang-latest.min.js" async=""></script>
@@ -647,5 +653,6 @@
       </div>
     </div>
   </nav>
+  <!-- NAVBAR MOBILE -->
 
 </html>

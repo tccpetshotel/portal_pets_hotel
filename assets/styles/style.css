@@ -1,7 +1,5 @@
-html
-{
+html {}
 
-}
 .card
 {
     padding: 1px; 
@@ -13,8 +11,7 @@ html
     margin-left: 40%;
 }
 
-.titulo
-{
+.titulo {
     font-weight: 400;
     font-family: sans-serif;
     color: rgb(255, 115, 0);
@@ -22,8 +19,7 @@ html
     padding-left: 500;
 }
 
-.pet 
-{
+.pet {
     padding: 0 !important;
 }
 
@@ -32,7 +28,7 @@ nav {
 }
 
 .gusta {
-    background-image: url(../images//background-blog.jpg); 
+    background-image: url(../images//background-blog.jpg);
     margin-top: 1px;
     height: 300px;
 }
