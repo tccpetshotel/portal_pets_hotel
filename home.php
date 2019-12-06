@@ -1,4 +1,4 @@
-<?php include_once('headerhome.php'); ?>
+<?php include_once('./partials/headerhome.php'); ?>  
 <link href="assets/styles/home.css" rel="stylesheet">
 <body>
     <!-- Slideshow container -->
