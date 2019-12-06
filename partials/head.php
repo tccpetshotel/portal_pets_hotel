@@ -624,11 +624,7 @@
         <a href="#" data-activates="nav-mobile" class="button-collapse">
           <i class="material-icons">menu</i></a>
         <ul class="bt hide-on-med-and-down">
-<<<<<<< HEAD
           <li><a href="home.php">Home</a></li>
-=======
-          <li><a href="index.php">Home</a></li>
->>>>>>> d90ede9490af9706cd8c077d4b1a024de358ebac
           <li class="k"><a href="blog.php">Blog</a></li>
           <li><a href="cadastro.php">Cadastro</a></li>
           <li><a href="#">App</a></li>
