@@ -18,9 +18,6 @@
 
   <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
 
   <script async="" src="https://www.google-analytics.com/analytics.js"></script>
   <script type="text/javascript" async="" src="https://cdn.shopify.com/s/javascripts/tricorder/trekkie.storefront.min.js?v=2019.11.04.1"></script>
@@ -601,12 +598,6 @@
   <script>
     window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');
   </script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.sidenav');
-      var instances = M.Sidenav.init(elems, {});
-    });
-  </script>
   <link rel="canonical" href="https://themes.materializecss.com/pages/blog">
   <link href="https://cdn.shopify.com/shopifycloud/boomerang/boomerang-latest.min.js" rel="preload" as="script">
   <script id="boomr-scr-as" src="https://cdn.shopify.com/shopifycloud/boomerang/boomerang-latest.min.js" async=""></script>
@@ -624,12 +615,8 @@
         <a href="#" data-activates="nav-mobile" class="button-collapse">
           <i class="material-icons">menu</i></a>
         <ul class="bt hide-on-med-and-down">
-<<<<<<< HEAD
-          <li><a href="home.php">Home</a></li>
-=======
-          <li><a href="index.php">Home</a></li>
->>>>>>> d90ede9490af9706cd8c077d4b1a024de358ebac
-          <li class="k"><a href="blog.php">Blog</a></li>
+          <li class="k"><a href="index.php">Home</a></li>
+          <li><a href="blog.php">Blog</a></li>
           <li><a href="cadastro.php">Cadastro</a></li>
           <li><a href="#">App</a></li>
         </ul>
@@ -637,9 +624,10 @@
         </ul>
         <div class="nav-header">
           <div class="imagem">
-            <a href="blog.php">
+            <a href="index.php">
               <!--target="_blank" Abrir em outra página -->
               <img src="./assets/images/logo.png" alt="PetsHotel" style="width: 200px; height: 200px;">
+              <h1>HOME</h1>
           </div>
       </a>
     </div>
@@ -649,14 +637,10 @@
     <div class="categories-wrapper an darken-1">
       <div class="categories-container pin-top" style="top: 0px; background-color:rgb(255, 94, 0);">
         <ul class="categories db">
-          <li><a href="blog.php">Pets</a></li>
-          <li><a href="dogs.php">Cachorros</a></li>
-          <li><a href="cats.php">Gatos</a></li>
-          <li><a href="hotels.php">Hotéis</a></li>
+          <li class="k"><a href="blog.php">Time</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <!-- NAVBAR MOBILE -->
 
 </html>

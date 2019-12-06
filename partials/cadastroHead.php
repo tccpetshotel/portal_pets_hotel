@@ -11,6 +11,16 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>Cadastro PetsHotel</title>
+    <style>
+        .input-field input:focus+label {
+            color: rgb(255, 94, 0) !important;
+        }
+
+        .row .input-field input:focus {
+            border-bottom: 1px solid rgb(255, 94, 0) !important;
+            box-shadow: 0 1px 0 0 rgb(255, 94, 0) !important
+        }
+    </style>
 </head>
 
 <body>

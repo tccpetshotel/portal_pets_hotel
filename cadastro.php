@@ -1,71 +1,62 @@
 <?php include_once("./partials/cadastroHead.php"); ?>
 <div id="sigin-page">
     <div id="logo">
-        <img src="./assets/images/logo.png" width="180">
+        <img id="logoImg" src="./assets/images/logo.png" onclick="window.history.back();" width="180">
     </div>
     <div id="cadastro" class="container row">
         <form id="form-createClient" class="col s12 m12" action="https://petshotel.herokuapp.com/client/create" method="POST">
             <div class="row">
                 <div class="input-field col s12 m6">
                     <input id="nome" name="nome" type="text" class="validate">
-                    <label for="nome">Nome</label>
+                    <label for="nome">
+                        <h5>Nome</h5>
+                    </label>
                 </div>
                 <div class="input-field col s12 m6">
                     <input id="email" name="email" type="email" class="validate">
-                    <label for="email">Email</label>
+                    <label for="email">
+                        <h5>Email</h5>
+                    </label>
                 </div>
                 <div class="input-field col s12 m12">
                     <input id="senha" name="senha" type="password" class="validate">
-                    <label for="senha">Senha</label>
+                    <label for="senha">
+                        <h5>Senha</h5>
+                    </label>
                 </div>
                 <div class="input-field col s12 m6">
                     <input id="endereco" name="endereco" type="text" class="validate">
-                    <label for="endereco">Endereço</label>
+                    <label for="endereco">
+                        <h5>Endereço</h5>
+                    </label>
                 </div>
                 <div class="input-field col s12 m6">
                     <input id="cidade" name="cidade" type="text" class="validate">
-                    <label for="cidade">Cidade</label>
+                    <label for="cidade">
+                        <h5>Cidade</h5>
+                    </label>
                 </div>
                 <div class="input-field col s12 m6">
                     <input id="estado" name="estado" type="text" class="validate">
-                    <label for="estado">Estado</label>
+                    <label for="estado">
+                        <h5>Estado</h5>
+                    </label>
                 </div>
                 <div class="input-field col s12 m6">
                     <input id="celular" name="celular" type="tel" class="validate">
-                    <label for="celular">Celular</label>
+                    <label for="celular">
+                        <h5>Celular</h5>
+                    </label>
                 </div>
                 <div id="submitDIV" class="input-field col s12 m12">
-                    <button id="submit" class="btn-floating btn-large waves-effect waves-light" type="submit"><i class="material-icons">add</i></button>
+                    <button id="submit" class="waves-effect waves-light btn-large" type="submit">
+                        <h5 id="cadastrar-se">Cadastrar-se</h5>
+                    </button>
                 </div>
             </div>
         </form>
     </div>
 </div>
 </body>
-<script>
-    const button = document.getElementById("submit");
-    const nome = document.getElementById("nome").value;
-    const email = document.getElementById("email").value;
-    const senha = document.getElementById("senha").value;
-    const endereco = document.getElementById("endereco").value;
-    const cidade = document.getElementById("cidade").value;
-    const estado = document.getElementById("estado").value;
-    const celular = document.getElementById("celular").value;
-    const data = {
-        nome: nome,
-        email: email,
-        senha: senha,
-        endereco: endereco,
-        cidade: cidade,
-        estado: estado,
-        celular: celular
-    }
-    function att(){
-        if(data.nome == "" || data.email == "" || data.senha == "" || data.endereco == "" || data.cidade == "" || data.estado == "" || data.celular == ""){
-            button.setAttribute("disabled", "disabled");
-        } else {
-            button.removeAttribute("disabled"); 
-        }
-    }
-</script>
+
 </html>
