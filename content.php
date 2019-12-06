@@ -59,7 +59,7 @@
             </div>
           </div>
         </div>
-        <div class="d hx hf gu gallery-item gallery-expand ce sintel" style="position: absolute; left: 0px; top: 1090px;" data-fillscreen="true">
+        <div class="d hx hf gu gallery-item gallery-expand ce sintel" style="position: relative; left: 0px; top: 1090px;" data-fillscreen="true">
           <div class="placeholder">
             <div class="gallery-curve-wrapper">
               <a class="gallery-cover gray" style="height: 200px;">
@@ -103,7 +103,6 @@
   <div class="hiddendiv common">
 
   </div>
-  <div class="drag-target" data-sidenav="nav-mobile" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; 
--webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+  <div class="drag-target" data-sidenav="nav-mobile" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
   </div>
   </body>
