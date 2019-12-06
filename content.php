@@ -1,11 +1,13 @@
   <div id="portfolio" class="cx gray">
-    <div class="db">
+    <div class="container">
       <div class="b e" style="position: relative; height: 3482px;">
-        <div class="d hx hf gu gallery-item ce all" style="position: absolute; left: 0px; top: 0px;">
+        <div class="d hx hf gu gallery-item all" style="position: absolute; left: 0px; top: 0px;">
           <div class="h blue-grey darken-1">
           </div>
         </div>
 
+
+        <!-- Card1 -->
         <div class="d hx hf gu gallery-item gallery-expand ce overhead" style="position: absolute; left: 0px; top: 226px;" data-fillscreen="true">
           <div class="placeholder">
             <div class="gallery-curve-wrapper">
@@ -14,7 +16,6 @@
                 <div class="gradient"></div>
               </a>
               <div class="gallery-header">
-                <!--Content WorkSpace-->
                 <span style="font-family:cursive; font-weight: bold;"> Pássaros brasileiros: conheça as 5 espécies mais famosas!</span>
               </div>
               <div class="gallery-body">
@@ -32,6 +33,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Card2 -->
         <div class="d hx hf gu gallery-item gallery-expand ce overhead" style="position: absolute; left: 0px; top: 608px;" data-fillscreen="true">
           <div class="placeholder">
             <div class="gallery-curve-wrapper">
@@ -40,8 +43,6 @@
                 <div class="gradient"></div>
               </a>
               <div class="gallery-header">
-
-                <!-- Content Studio-->
                 <span style="font-family:cursive; font-weight: bold;">Tipos de hamster: escolha o ideal para seu lar!</span>
               </div>
               <div class="gallery-body">
@@ -59,6 +60,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Card3 -->
         <div class="d hx hf gu gallery-item gallery-expand ce sintel" style="position: absolute; left: 0px; top: 1090px;" data-fillscreen="true">
           <div class="placeholder">
             <div class="gallery-curve-wrapper">
@@ -67,7 +70,6 @@
                 <div class="gradient"></div>
               </a>
               <div class="gallery-header">
-                <!--Content Bamboo-->
                 <span style="font-family:cursive; font-weight: bold;">Como oferecer comida para coelhos?</span>
               </div>
               <div class="gallery-body">
@@ -84,12 +86,91 @@
             </div>
           </div>
         </div>
+        <!-- Card 4 -->
+        <div class="d hx hf gu gallery-item gallery-expand ce overhead" style="position: absolute; left: 0px; top: 608px;" data-fillscreen="true">
+          <div class="placeholder">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray" style="height: 200px;">
+                <img class="responsive-img" src="http://www.petz.com.br/blog/wp-content/uploads/2019/09/tumor-em-hamsters.jpg" alt="placeholder">
+                <div class="gradient"></div>
+              </a>
+              <div class="gallery-header">
+                <span style="font-family:cursive; font-weight: bold;">Tumor em hamster: saiba como identificar o problema</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Afinal, o que é o tumor em hamster?</h3>
+                </div>
+                <p class="fi">
+                  Embora muitas vezes seja diretamente associado ao câncer, o tumor em hamster nem sempre é maligno. Em termos do que ocorre no organismo, o tumor é resultado da multiplicação de determinadas células, o que gera a formação de protuberâncias.
+                </p>
+                <h3>Encontrei um caroço no meu hamster, será que é um tumor?</h3>
+                <p class="fi">
+                  A protuberância interna ou externa é, sem dúvidas, o sinal mais característico do tumor. No entanto, ela também pode apontar para outros quadros, como a presença de cistos ou de abscessos. Portanto, ao encontrar um caroço na pele do seu pet, o mais indicado é levá-lo ao médico veterinário assim que possível para um exame cuidadoso.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card5 -->
+        <div class="d hx hf gu gallery-item gallery-expand ce overhead" style="position: absolute; left: 0px; top: 608px;" data-fillscreen="true">
+          <div class="placeholder">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray" style="height: 200px;">
+                <img class="responsive-img" src="http://www.petz.com.br/blog/wp-content/uploads/2019/09/lampada-de-aquecimento-para-repteis.jpg" alt="placeholder">
+                <div class="gradient"></div>
+              </a>
+              <div class="gallery-header">
+                <span style="font-family:cursive; font-weight: bold;">Lâmpada para aquecimento: por que ela é importante para os répteis?</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Por que os répteis precisam de calor?</h3>
+                </div>
+                <p class="fi">
+                  Como animais de sangue frio, os répteis regulam sua temperatura interna a partir da temperatura externa. Isso significa que, quando o ambiente esfria, a temperatura do corpo deles cai também. Já quando está quente, a temperatura interna deles sobe.
+                </p>
+                <h3>A importância da lâmpada de aquecimento</h3>
+                <p class="fi">
+                  Na natureza, as temperaturas não permanecem uniformes ao longo de todo o dia e durante as estações do ano. Sendo assim, como os répteis fazem para se manter na temperatura adequada ao funcionamento de seu organismo?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card6 -->
+        <div class="d hx hf gu gallery-item gallery-expand ce overhead" style="position: absolute; left: 0px; top: 608px;" data-fillscreen="true">
+          <div class="placeholder">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray" style="height: 200px;">
+                <img class="responsive-img" src="http://www.petz.com.br/blog/wp-content/uploads/2019/07/alimentacao-de-passaros-pet.jpg" alt="placeholder">
+                <div class="gradient"></div>
+              </a>
+              <div class="gallery-header">
+                <span style="font-family:cursive; font-weight: bold;">Alimentação de pássaros: aves podem comer insetos?</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Alimentação de pássaros: diferentes dietas</h3>
+                </div>
+                <p class="fi">
+                  Do tamanho do corpo ao formato do bico, elas têm características próprias, que se desenvolveram de acordo com as necessidades de cada uma. Como prova, basta pensar em como o bico do beija-flor é diferente do bico do sabiá.
+                </p>
+                <h3>Insetos na alimentação de pássaros domésticos</h3>
+                <p class="fi">
+                  O fato de a base da alimentação de um pássaro não ser composta por determinado alimento não significa que ele nunca possa consumi-lo. Segundo o biólogo da Petz Rafael Pires Barbosa, as espécies de canário belga, mandarim, manon e diamante Gould são granívoras.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FIM DOS CARDS -->
+
       </div>
-
     </div>
-
   </div>
-
   </div><!-- /.container -->
 
   <!-- Core Javascript -->

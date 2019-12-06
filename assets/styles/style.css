@@ -1,22 +1,8 @@
 html {}
 
-.card
-{
-    padding: 1px; 
-}
-
-.imagem 
-{   
+.imagem {
     margin-top: -5%;
     margin-left: 40%;
-}
-
-.titulo {
-    font-weight: 400;
-    font-family: sans-serif;
-    color: rgb(255, 115, 0);
-    font-size: 3em;
-    padding-left: 500;
 }
 
 .pet {

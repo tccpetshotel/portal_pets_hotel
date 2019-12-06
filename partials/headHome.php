@@ -637,7 +637,7 @@
     <div class="categories-wrapper an darken-1">
       <div class="categories-container pin-top" style="top: 0px; background-color:rgb(255, 94, 0);">
         <ul class="categories db">
-          <li class="k"><a href="blog.php">Time</a></li>
+          <li class="k"><a href="blog.php">Quem somos</a></li>
         </ul>
       </div>
     </div>
