@@ -421,7 +421,7 @@ window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
         >
         <i class="material-icons">menu</i></a>
         <ul class="bt hide-on-med-and-down">
-          <li><a href="#">Home</a></li>
+          <li><a href="home.php">Home</a></li>
           <li class="k"><a href="blog.php">Blog</a></li>
           <li><a href="cadastro.php">Cadastro</a></li>
           <li><a href="#">App</a></li>
