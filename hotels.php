@@ -100,7 +100,7 @@ include_once('./partials/head.php');
                         <div class="gallery-body titImg">
                             <div class="title-wrapper">
                                 <center>
-                                    <img src="http://www.hotelparacachorrocaodeouro.com.br/images/img0019.png" alt="" style="width: 300px; height:150px;">
+                                    <img src="http://www.hotelparacachorrocaodeouro.com.br/images/img0019.png" alt="" style="width: 200px; height:200px;">
                                 </center>
                                 <h3>Cão de Ouro</h3>
                             </div>
