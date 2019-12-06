@@ -598,6 +598,12 @@
   <script>
     window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');
   </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, {});
+    });
+  </script>
   <link rel="canonical" href="https://themes.materializecss.com/pages/blog">
   <link href="https://cdn.shopify.com/shopifycloud/boomerang/boomerang-latest.min.js" rel="preload" as="script">
   <script id="boomr-scr-as" src="https://cdn.shopify.com/shopifycloud/boomerang/boomerang-latest.min.js" async=""></script>
@@ -610,26 +616,24 @@
     <div class="nav-background gusta">
     </div>
     <div class="nav-wrapper db">
-      <a href="blog.php" class="brand-logo">
-
-        <a href="#" data-activates="nav-mobile" class="button-collapse">
-          <i class="material-icons">menu</i></a>
-        <ul class="bt hide-on-med-and-down">
-          <li><a href="#">Home</a></li>
-          <li class="k"><a href="blog.php">Blog</a></li>
-          <li><a href="cadastro.php">Cadastro</a></li>
-          <li><a href="#">App</a></li>
-        </ul>
-        </li>
-        </ul>
-        <div class="nav-header">
-          <div class="imagem">
-            <a href="blog.php">
-              <!--target="_blank" Abrir em outra página -->
-              <img src="./assets/images/logo.png" alt="PetsHotel" style="width: 200px; height: 200px;">
-          </div>
-      </a>
-    </div>
+      <a href="#" data-activates="nav-mobile" class="button-collapse">
+        <i class="material-icons">menu</i></a>
+      <ul class="bt hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li class="k"><a href="blog.php">Blog</a></li>
+        <li><a href="cadastro.php">Cadastro</a></li>
+        <li><a href="#">App</a></li>
+      </ul>
+      </li>
+      </ul>
+      <div class="nav-header">
+        <div class="imagem">
+          <a href="blog.php">
+            <!--target="_blank" Abrir em outra página -->
+            <img src="./assets/images/logo.png" alt="PetsHotel" style="width: 200px; height: 200px;">
+          </a>
+        </div>
+      </div>
     </div>
     </div>
     <!-- Abaixo do NAV -->
@@ -643,5 +647,6 @@
       </div>
     </div>
   </nav>
+  <!-- NAVBAR MOBILE -->
 
 </html>

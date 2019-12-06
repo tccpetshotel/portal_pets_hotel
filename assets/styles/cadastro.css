@@ -15,6 +15,11 @@
     top: 0;
 }
 
+label {
+    color: rgb(255, 94, 0) !important;
+    top: -1rem !important;
+}
+
 #cadastro {
     transition: all 0.20s linear;
     margin-top: 3rem;
@@ -28,17 +33,31 @@
 
 #cadastro:hover {
     transition: all 0.15s linear;
-    transform: scale(1.15);
-    background-color: rgba(255, 255, 255, 0.95);
+    transform: scale(1.08);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 #logo {
+    transition: all 0.15s linear;
     text-align: center !important;
+}
+
+#logoImg {
+    transition: all 0.15s linear;
+}
+
+#logoImg:hover {
+    transition: all 0.15s linear;
+    transform: scale(1.15);
 }
 
 #submit {
     background-color: rgb(255, 94, 0) !important;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3)
+}
+
+#cadastrar-se {
+    margin-bottom: 1rem !important;
 }
 
 #submit:hover {
