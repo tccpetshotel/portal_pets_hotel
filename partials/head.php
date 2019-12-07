@@ -615,7 +615,7 @@
 <body class="blog">
 
   <!-- Navbar e Header -->
-  <nav class="nav-extended">
+  <nav class="nav-extended col s12 m6 l4">
     <div class="nav-background gusta">
     </div>
     <div class="nav-wrapper db">
