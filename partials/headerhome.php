@@ -8,6 +8,9 @@
   <title>Página Inicial</title>
   <link rel="stylesheet" type="text/css" href="./assets/styles/home.css">
   <link rel="sortcut icon" href="./assets/images/casco.ico" type="image/x-icon" />
+  <link href="assets/styles/home.css" rel="stylesheet">
+<link href="assets/styles/button.css" rel="stylesheet">
+  </head>
   <header>
     <div class="topnav dog">
       <a class="active" href="home.php">Página Inicial</a>
@@ -17,7 +20,7 @@
     <style>
       /* Add a black background color to the top navigation */
       .topnav {
-        background-color: orangered;
+        background-color: #f4511e;
         overflow: hidden;
       }
 
@@ -40,7 +43,7 @@
       
       /* Add a color to the active/current link */
       .topnav a.active {
-        background-color: #87CEEB;
+        background-color: green;
         color: white;
       }
       .dog {
@@ -48,4 +51,3 @@
       }
       </style>
   </header>
-</head>

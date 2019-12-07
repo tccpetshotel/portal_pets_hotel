@@ -1,23 +1,23 @@
 <?php include_once('./partials/headerhome.php'); ?>  
-<link href="assets/styles/home.css" rel="stylesheet">
-<body>
+
+<body background="assets/images/background.jpg">
     <!-- Slideshow container -->
-<div class="slideshow-container">
+<div class="slideshow-container " style="max-width: 100vw !important">
 
 <!-- Full-width images with number and caption text -->
-<div class="mySlides fade">
+<div class="mySlides fade" style="width: 100%"> 
   <div class="numbertext">1 / 3</div>
-  <img src="assets/images/slide1.jpg" style="width:100%">
+  <img src="assets/images/puppy.jpg" height = "750" width="100%">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="assets/images/slide2.jpg" style="width:100%">
+  <img src="assets/images/cat.jpg" height = "750" width="100%">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="assets/images/slide3.jpg" style="width:100%">
+  <img src="assets/images/dog.jpg" height = "750" width="100%">
 </div>
 
 <!-- Next and previous buttons -->
@@ -32,6 +32,9 @@
 <span class="dot" onclick="currentSlide(2)"></span>
 <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+
+
+<button onclick="window.location.href = 'assets/images/tcc.mp4'" class="button"><span>Descubra mais</span></button>
 
 <script>
 var slideIndex = 0;

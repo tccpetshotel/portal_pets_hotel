@@ -8,6 +8,7 @@
     <title>Portfólio</title>
     <link rel="stylesheet" type="text/css" href="./assets/styles/portfolio.css">
     <link rel="sortcut icon" href="./assets/images/casco.ico" type="image/x-icon" />
+    </head>
     <header>
         <div class="topnav pet">
             <a href="home.php">Página Inicial</a>
@@ -17,7 +18,7 @@
         <style>
             /* Add a black background color to the top navigation */
             .topnav {
-                background-color: orangered;
+                background: orangered;
                 overflow: hidden;
             }
 
@@ -39,9 +40,8 @@
 
             /* Add a color to the active/current link */
             .topnav a.active {
-                background-color: #87CEEB;
+                background-color: green;
                 color: white;
             }
         </style>
     </header>
-</head>

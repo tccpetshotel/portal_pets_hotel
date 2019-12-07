@@ -1,6 +1,6 @@
 <?php include_once('./partials/headerportfolio.php'); ?>
 
-<body>
+<body background="assets/images/backport.jpg">
   <div class="main">
     <h1>DIVULGUE SEU HOTEL CONOSCO</h1>
     <hr>
